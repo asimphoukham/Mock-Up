@@ -1,0 +1,128 @@
+/*
+<!-- Project 2
+    Team :
+    Members:    Arisabeth Simphoukham
+                John-Richard Pagtama
+                Jose Cabral
+    Due Date:   Thursday, 7 February 2019, 9:00 AM
+
+Site Information
+userName="muzzles\$muzzles" 
+publishUrl="ftp://waws-prod-bay-117.ftp.azurewebsites.windows.net/site/wwwroot" 
+userPWD="DqHHwplihqboEuzGQseM2F1WlmNhnEMqwCxJmQZT3Q2ogxK1GMa8Tnd2Nenk"
+destinationAppUrl="http://muzzles.azurewebsites.net"  
+
+
+font-family: 'Fugaz One', cursive;
+
+-->
+*/
+
+
+
+
+body{
+    width:100%;
+    background-image: url(assets/bgtexture.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+.homeheroimg{
+    margin-top:5rem;
+  }
+
+
+.Generalbg{
+    background-image: url(../Assets/bgtexture.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+@font-face {
+font-family: "Montauk";
+src: url(/Fonts/Montauk-Regular.otf) format("OpenType");
+
+}
+
+*{font-family: Montauk;}
+
+.container_Muzzles{
+  
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+
+.CateringHero{
+    background-image: url(../Assets/cateringHero.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.homeHero{
+    background-image: url(../Assets/homeHero.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.nav-link{
+
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive; 
+    font-size: 20px;
+    font-style: normal; 
+}
+
+.nav-text{
+margin-top: 35px;
+}
+
+h1{
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive; 
+    font-size: 50px;
+    font-style: normal; 
+}
+ 
+
+h2{
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive; 
+    font-size: 30px;
+    font-style: normal; 
+}
+
+
+.textBg{
+    background-color: #FFFFFF;
+}
+
+.textBg_About{
+    background-color: #FFFFFF;
+    height: 80px;
+}
+
+.nav-link{
+
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive; 
+    font-size: 20px;
+    font-style: normal; 
+}
